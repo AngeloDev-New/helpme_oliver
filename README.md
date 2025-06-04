@@ -22,11 +22,15 @@ Este projeto tem como objetivo coletar, processar e organizar dados públicos di
 ## Instalação
 
 Clone o repositório e instale as dependências.
+```bash
+git clone git@github.com:AngeloDev-New/helpme_oliver.git
+cd /helpme_oliver
+python -m venv venv
 
+```
 ### Windows
 
 ```bash
-python -m venv venv
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 venv\Scripts\activate
 pip install -r requirements.txt
@@ -35,7 +39,6 @@ pip install -r requirements.txt
 ### Linux
 
 ```bash
-python -m venv venv
 chmod +x venv/
 . venv/bin/activate
 pip install -r requirements.txt
